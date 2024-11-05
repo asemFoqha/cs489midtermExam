@@ -56,6 +56,11 @@ public class Cs489midtermExamApplication {
             System.out.println("Plants Sorted By PlantDate");
             printPlantsSortedPlantDate(List.of(plant, plant2, plant3));
 
+            //testing the updating method
+//            gardenService.updateGarden(new Garden(1,"test updating",40.3));
+//
+//            System.out.println(gardenService.getAllGardens());
+
 
         };
     }

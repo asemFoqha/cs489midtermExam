@@ -24,6 +24,13 @@ public class Garden {
     @OneToMany(mappedBy = "garden")
     private List<Plant> plants;
 
+    public Garden(Integer gardenId, String gardenName, Double size) {
+        this.gardenId = gardenId;
+        this.gardenName = gardenName;
+        this.size = size;
+        this.plants = plants;
+    }
+
     public Garden(String gardenName, Double size) {
         this.gardenName = gardenName;
         this.size = size;
