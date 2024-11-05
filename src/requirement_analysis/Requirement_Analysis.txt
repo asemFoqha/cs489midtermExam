@@ -1,0 +1,8 @@
+1. managing vegetable garden data
+2. the system should allow the user to add new gardens
+3. the system should allow the user to add new plants
+4. the system should allow the user to display all gardens
+5. the system should allow the user to display all plants sorted by name
+6. the system should allow the user to display all plants sorted by plant date
+7. the system should allow the user to delete a garden 
+8. the system should allow the user to delete a plant
